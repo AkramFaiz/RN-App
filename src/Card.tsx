@@ -28,7 +28,6 @@ const MovieCard: React.FC<MovieCardProps> = ({
       <Text style={{fontWeight: 'bold'}}>{id}  </Text>
       <Image source={{ uri: poster }} style={styles.image} />
       <View style={styles.contentContainer}>
-        {/* {JSON.stringify(actors)} */}
         <Text style={styles.title}>{title}</Text>
         <Text style={styles.subTitle}>Cast: {actors}</Text>
         <Text numberOfLines={3} style={styles.description}>
