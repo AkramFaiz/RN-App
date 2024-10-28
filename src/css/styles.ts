@@ -4,14 +4,14 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     fontFamily: "sans-serif",
-    color: "white",
+    color: "#FFFFFF",
   },
   error: { color: "#b12323" },
   image: {
     flex: 1,
   },
   text: {
-    color: "white",
+    color: "#FFFFFF",
     fontSize: 42,
     lineHeight: 84,
     fontWeight: "bold",
@@ -25,11 +25,11 @@ export const styles = StyleSheet.create({
     fontSize: 14,
   },
   textWhite: {
-    color: "white",
+    color: "#FFFFFF",
   },
   textBlue: {
     backgroundColor: "blue",
-    color: "white",
+    color: "#FFFFFF",
   },
   inputStyle: {
     borderBottomWidth: 2,

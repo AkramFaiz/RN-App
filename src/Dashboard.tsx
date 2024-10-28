@@ -25,7 +25,7 @@ const Dashboard = () => {
     navigation.navigate("Login");
   };
   return (
-    <LinearGradient colors={["#c0c52a", "#639e30"]} style={{ height: "100%" }}>
+    <LinearGradient colors={["#46592f", "#a3a13a"]} style={{ height: "100%" }}>
       <View style={{ padding: 20 }}>
         <MoviesScreen />
       </View>

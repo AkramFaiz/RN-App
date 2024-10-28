@@ -53,10 +53,10 @@ const MoviesScreen = () => {
   return (
     <View>
       <View style={styles.header}>
-        <Text style={styles.title}>Movies</Text>
-        <TouchableOpacity onPress={() => setSearchVisible(!searchVisible)}>
+        <Text style={[styles.title, { color: "#FFFFFF"}]}>Movies</Text>
+        {/* <TouchableOpacity onPress={() => setSearchVisible(!searchVisible)}>
           <Ionicons name="search" size={24} color="black" />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
       {loading && <Text>{movieListLabels.loading}</Text>}
       {/* Overlay Search Input */}
@@ -65,7 +65,7 @@ const MoviesScreen = () => {
           <TextInput
             placeholder={movieListLabels.searchPlaceholder}
             onChangeText={handleSearchChange}
-            style={styles.inputStyle}
+            style={[styles.inputStyle, { color: "#FFFFFF"}]}
           />
         {/* </View>
       )} */}
